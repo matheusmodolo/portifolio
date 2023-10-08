@@ -237,7 +237,7 @@ li {
     text-decoration: none;
     border-bottom: 1px solid transparent;
     color: #15aaff;
-    transition: all .5s linear;
+    transition: all .5s ease;
 }
 
 .certificacao-card a:hover {
