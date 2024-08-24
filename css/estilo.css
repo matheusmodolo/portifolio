@@ -111,7 +111,7 @@ li {
 }
 
 .titulo {
-    color: #15aaff;
+    color: #69b4df;
 }
 
 .main-header {
@@ -138,7 +138,7 @@ li {
 
 .main-header-title strong {
     font-size: 24px;
-    color: #15aaff;
+    color: #69b4df;
     font-weight: normal;
 }
 
@@ -236,7 +236,7 @@ li {
 .certificacao-card a {
     text-decoration: none;
     border-bottom: 1px solid transparent;
-    color: #15aaff;
+    color: #69b4df;
     transition: all .5s ease;
 }
 
