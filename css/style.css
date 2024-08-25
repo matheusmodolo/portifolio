@@ -1,7 +1,4 @@
-/*html {
-    scroll-behavior: smooth;
-}
-
+/*
 .corpo {
     font-family: 'Open Sans', arial, helvetica, sans-serif;
     background-color: #373636;
@@ -11210,6 +11207,11 @@ p.lead {
   font-weight: 400;
 }
 
+*:hover, *:active, *:focus{
+  transition: all .3s ease;
+}
+
+
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
@@ -11226,6 +11228,7 @@ p.lead {
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
+
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
 }
@@ -11333,10 +11336,44 @@ section.resume-section .resume-section-content {
   color: #c7c9c9;
 }
 
-.text-light3{
-  color: #b7b9b9;
-}
-
 .text-light4{
   color: #979999;
 }
+
+.section-title{
+  color: #b7b9b9;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  position: relative;
+}
+
+.section-title:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity));
+  left: 0;
+  bottom: 0;
+}
+
+.portfolio-img {
+  transition:all 0.3s ease;
+  margin-bottom: .5rem;
+}
+
+.portfolio-content img:hover {
+  transform: scale(1.1);
+  filter: brightness(0.7);
+  margin-bottom: 1rem;
+}
+
+.portfolio-info h4{
+  color: #a7a9a9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
